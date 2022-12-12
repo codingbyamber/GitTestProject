@@ -39,7 +39,8 @@ int main()
        displayPay(sales_amount, commission, monthly_pay);
       
        //CALCULATE AGAIN?
-       cout << "Do it again? (Y/N)" << endl;
+       cout << endl;
+       cout << "Would you like to do it again? (Y/N or y/n)" << endl;
        cin >> again;
              
    }
